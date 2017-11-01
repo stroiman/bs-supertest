@@ -22,8 +22,10 @@ For the same reason, I have not published an npm package yet - I don't want to
 reserve the package name at this point in time.
 
 The easiest way of installing is to install the npm package directly from git:
-`git+https://github.com/PeteProgrammer/bs-supertest.git`. Remember to add the
-package name to `bsconfig.json` too.
+```
+npm install --save-dev git+https://github.com/PeteProgrammer/bs-supertest.git
+```
+Remember to add the package name to `bsconfig.json` too.
 
 Everything is released under the MIT license, and pull requests are most welcome
 if they are made available under the MIT license as well.
