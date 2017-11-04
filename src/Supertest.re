@@ -4,6 +4,7 @@
   type t;
   type errorCallback('a) = (Js.null(Error.t), Js.t('a)) => unit;
   [@bs.module] external request : Express.App.t => t = "supertest";
+  [@bs.module "supertest"] external agent : Express.App.t => t = "";
   [@bs.send.pipe : t] external get : string => t = "get";
   [@bs.send.pipe : t] external post : string => t = "post";
   [@bs.send.pipe : t] external send : (Js.t('a)) => t = "send";
