@@ -2,6 +2,7 @@ module Response = {
   type t;
 
   [@bs.get] external getBody : t => Js.t('a) = "body";
+  [@bs.get] external getBodyJson : t => Js.Json.t = "body";
 };
 
 module Error = {
