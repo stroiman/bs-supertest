@@ -1,5 +1,5 @@
 {
-  "name": "bs-supertest",
+  "name": "@stroiman/bs-supertest",
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
