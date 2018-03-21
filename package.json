@@ -16,5 +16,8 @@
   },
   "peerDependencies": {
     "bs-express": "0.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
