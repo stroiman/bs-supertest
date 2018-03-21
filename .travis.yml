@@ -1,0 +1,8 @@
+deploy:
+  provider: npm
+  email: peter@stroiman.com
+  api_key:
+    secure: hbrtcrt4RSC2kUfmdZE2+LA/xv9Lk38Ch5lQvN3eoKCAghSUJPg/86NrX31WPL46Ijz25kUfcU7bV/jpDcMtnPg75TyMflJSuIj/NJxtkjJPs2+UkDudHVB7UZxf2ozQYolhekehSCm5w3jYgzZUD9lbyH07/zDNkV8B+T85JvNeNEE1mt9HJTB+GWPNibjR7JssDHNJ4TqT3a7Dru8ZrW9QC8z+jB4rl+L5TukI0WHSqqhP89UfIMatEsh4YeMWjc4c35UQr8oGRo645KzXSfbzAVx+uS9q6ELQdsobsIKki98Z3BBObpDPY/i4AlGBmWjVF+asHGcS8VvCsDZjaLQnN0leqq3lpKvtbFWsMh1K0idv1aHmqdYZyNgUV4u00cWiknS1OU/rNBazt27y7cDTjfKUAUqhDk8g0VPb4LGuDIj8gevOLtS1hoWHfRSTeJ+OWR0lZ3sFVRiBxPqh1qcoZ4BsMN4q+kNGxNWcUF5PioTFG7vYXM8FL9Q2xlawzUTL9AdLJv+XyED+gSPyq5+sdTz2g2GhPStVpuz7aH6ce/sxDlPCqKwrgwOHPOSBuWvOUWV0b7y1SkaKqctK1cAx8RRoDgqZH7Of2ERoTxUbLrBVZzOthMoxr4eS/Gt7DSR4qf0W7hH3PrWcwKIuJWUKsGHkkwbu9Xd2UE6J4tQ=
+  on:
+    tags: true
+    repo: stroiman/bs-supertest
