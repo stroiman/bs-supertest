@@ -23,7 +23,7 @@ reserve the package name at this point in time.
 
 The easiest way of installing is to install the npm package directly from git:
 ```
-npm install --save-dev git+https://github.com/PeteProgrammer/bs-supertest.git
+npm install --save-dev git+https://github.com/stroiman/bs-supertest.git
 ```
 Remember to add the package name to `bsconfig.json` too.
 
