@@ -17,7 +17,7 @@
   "license": "MIT",
   "devDependencies": {
     "bs-express": "^0.0.5",
-    "bs-platform": "^2.0.0"
+    "bs-platform": "^5"
   },
   "peerDependencies": {
     "bs-express": "0.0.4"
